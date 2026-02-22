@@ -35,7 +35,14 @@
             
         <i class="fa-solid fa-bars" id="menu-icon"></i>
 
-        <button class="visit-btn">Visit Github</button> 
+        <a
+            href="https://github.com/xeno-commits"
+             class="visit-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            Visit Github
+        </a> 
     </header>
     
     <section id="about" class="about">
@@ -51,13 +58,38 @@
                 </div>
 
                 <div class="btn-group">
-                    <div class="btn">Download CV</div>
-                    <div class="btn">Contact</div>
+                    <a
+                        class="btn"
+                        href="GregResumeBase.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Download CV
+                    </a>
+
+                    <a class="btn" href="#contact">
+                        Contact
+                    </a>
                 </div>
 
                 <div class="socials">
-                    <i class="fa-brands fa-github"></i>
+                    <a
+                        href="https://github.com/xeno-commits"
+                        aria-label="GitHub"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/gregorydean-"
+                        aria-label="LinkedIn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                     <i class="fa-brands fa-linkedin"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -113,8 +145,23 @@
                 <h3>Project X</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, officia.</p>
                     <div class="btn-group">
-                        <div class="btn">Live Demo</div>
-                        <div class="btn">Github Repo</div>
+                        <a
+                            class="btn"
+                            href="https://your-demo-url.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Live Demo
+                        </a>
+
+                        <a
+                            class="btn"
+                            href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Github Repo
+                        </a>
                     </div>
             </div>
 
@@ -123,8 +170,23 @@
                 <h3>Project Y</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, officia.</p>
                     <div class="btn-group">
-                        <div class="btn">Live Demo</div>
-                        <div class="btn">Github Repo</div>
+                        <a
+                            class="btn"
+                            href="https://your-demo-url.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Live Demo
+                        </a>
+
+                        <a
+                            class="btn"
+                            href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Github Repo
+                        </a>
                     </div>
             </div>
 
@@ -133,25 +195,67 @@
                 <h3>Project Z</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, officia.</p>
                     <div class="btn-group">
-                        <div class="btn">Live Demo</div>
-                        <div class="btn">Github Repo</div>
+                        <a
+                            class="btn"
+                            href="https://your-demo-url.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Live Demo
+                        </a>
+
+                        <a
+                            class="btn"
+                            href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Github Repo
+                        </a>
                     </div>
             </div>
         </div>
     </section>
 
-    <section class="contact" id="contact">
-        <div class="input-box">
+    <section id="contact" class="contact">
+        <form
+            class="input-box"
+            action="https://formspree.io/f/xwvnryka"
+            method="POST"
+        >
+            <h2 class="section-title">Contact Me</h2>
 
-            <h2 class="section-title">Contact Me</h2> 
-            
             <div class="input">
-                <input type="text" placeholder="example@email.com">
-                <i class="fa-solid fa-envelope"></i>
+            <input
+                type="text"
+                name="name"
+                placeholder="Your name"
+                required
+            >
+            <i class="fa-solid fa-user"></i>
             </div>
 
-            <div class="btn">Submit</div>
-        </div>
+            <div class="input">
+            <input
+                type="email"
+                name="email"
+                placeholder="example@email.com"
+                required
+            >
+            <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="input textarea">
+            <textarea
+                name="message"
+                rows="5"
+                placeholder="Your message"
+            ></textarea>
+            <i class="fa-solid fa-comment"></i>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
     </section>
 
     <footer>
