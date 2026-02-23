@@ -1,24 +1,44 @@
-# Personal Portfolio Website
+# Gregory Dean – Personal Portfolio Website
 
-## Status
-In Active Development
+Live site: https://gregory-dean.com  
 
-## Overview
-This project is a responsive personal portfolio website built with HTML, CSS, and JavaScript.
+A responsive personal website built with HTML, CSS, and JavaScript to showcase cybersecurity projects, experience, and contact information. Deployed using GitHub Pages with a custom domain managed through Cloudflare.
 
-## Current Features
-- Responsive layout
-- Functional navigation links
-- Project cards with external links
-- Secure Formspree contact form integration
-- Git feature-branch workflow
+---
 
-## In Progress
-- Deployment
-- Performance optimization
-- Accessibility improvements
-- UI improvements
+## Features
 
-## Development Notes
-- Base version established
-- Not happy with current contact section
+- Clean hero section with professional headshot and call-to-action buttons (Download CV, Contact)
+- Projects section highlighting:
+  - Personal portfolio website
+  - Email breach checker CLI tool
+  - Any future projects
+- Experience section summarizing IT, security, and lab work
+- Responsive design for desktop and mobile, including a collapsible navigation menu
+- Contact form powered by Formspree
+
+---
+
+## Tech Stack
+
+- HTML5
+- CSS3 (custom, no framework)
+- Vanilla JavaScript
+- GitHub Pages (hosting)
+- Cloudflare (DNS + custom domain)
+
+---
+
+## Project Structure
+
+```text
+.
+├── index.html
+├── style.css
+├── script.js
+├── pfp.png
+├── Project1.png
+├── Project2.png
+├── UnderConstruction.png
+└── docs/
+    └── screenshots/
