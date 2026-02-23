@@ -22,7 +22,7 @@
 - Resolved remote push rejection using `git pull --rebase origin main`
 - Learned proper semantic HTML usage and Git branch workflow discipline
 
-## 2026-02-22
+## 2026-02-22 v1.0
 - Refined contact form layout and icon alignment
 - Fixed mobile layout for project cards and buttons
 - Adjusted spacing and typography on small screens
@@ -32,3 +32,16 @@
 - Updated experience section to reflect real roles and lab work
 - Finalized README and repo documentation
   
+## 2026-02-23 v1.2
+- Optimized site for improved Lighthouse performance (mobile audit)
+- Implemented lazy loading on non-critical images (`loading="lazy"`, `decoding="async"`)
+- Refined alt text for improved accessibility and semantic clarity
+- Added `aria-hidden="true"` to decorative icons to reduce screen reader noise
+- Replaced inline `onclick` handlers with `addEventListener` and null checks
+- Eliminated console warnings and verified clean production runtime
+- Standardized secure external linking with `rel="noopener noreferrer"`
+- Updated UI labels ("Download CV" → "Download Resume")
+- Improved meta description for stronger SEO alignment
+- Re-tested production domain on GitHub Pages
+- Achieved Lighthouse scores: 94 Performance / 98 Accessibility / 100 Best Practices / 100 SEO
+- Committed and deployed performance-focused iteration to `main`
