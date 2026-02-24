@@ -45,3 +45,15 @@
 - Re-tested production domain on GitHub Pages
 - Achieved Lighthouse scores: 94 Performance / 98 Accessibility / 100 Best Practices / 100 SEO
 - Committed and deployed performance-focused iteration to `main`
+
+## 2026-02-24 v1.3
+- Designed and implemented circular transparent favicon for browser tab
+- Linked favicon properly in `<head>` using PNG format
+- Added Apple touch icon support for improved mobile device branding
+- Refined contact form layout for small screen responsiveness
+- Reduced input and textarea font sizes for mobile viewports
+- Resolved textarea placeholder collision with message icon
+- Corrected submit button alignment on ultra-narrow screen widths
+- Verified no layout shifts introduced by mobile styling updates
+- Confirmed local and remote repositories fully synchronized
+- Deployed UI polish iteration to `main` and validated production build
