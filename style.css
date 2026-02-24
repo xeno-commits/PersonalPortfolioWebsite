@@ -433,49 +433,61 @@ footer ul li a{
         padding: 1rem 1.5rem 1rem 3rem;
         font-size: 1.25rem;
     }
-        /* smaller section heading on mobile */
     .section-title{
         font-size: 3rem;
         line-height: 1.1;
         margin-bottom: 2rem;
     }
-
-    /* contact form tighter + full width on small screens */
     .contact .input-box{
         margin-top: 2rem;
         align-items: center;
     }
-
     .contact .input{
         width: 100%;
         display: flex;
         justify-content: center;
     }
-
     .input-box input,
     .input-box textarea{
         width: 85%;
     }
-
     .input-box button{
         margin-top: 1.5rem;
     }
-        /* project cards: tighter padding on mobile */
     .project-card{
         padding: 2rem 1.25rem;
     }
-
-    /* stack buttons & make them full width so they don't hit the edges */
     .btn-group{
         flex-direction: column;
         align-items: stretch;
         width: 100%;
         gap: 0.75rem;
     }
-
     .btn-group .btn{
         width: 100%;
         text-align: center;
+    }
+   
+@media (max-width: 480px) {
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9rem;
+    }
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+        font-size: 0.9rem;
+    }
+    .contact-form .input-group i {
+        font-size: 0.9rem;
+    }
+    .contact-form textarea {
+        padding-left: 3rem; 
+    }
+    .contact-form button,
+    .contact-form input[type="submit"] {
+        display: block;
+        margin: 1.5rem auto 0 auto;
+    }
     }
     footer ul{
         gap: 1rem;
